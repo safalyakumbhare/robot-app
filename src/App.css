@@ -1,0 +1,134 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  width: 100vw;
+}
+
+/* Responsive container padding */
+.container {
+  padding: 1rem;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
+  }
+}
+
+/* Responsive typography */
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+/* Card styles with improved responsiveness */
+.card {
+  transition: transform 0.2s;
+  margin-bottom: 1rem;
+  height: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .card-body {
+    padding: 1.5rem;
+  }
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+  .btn-primary {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+}
+
+.btn-primary:hover {
+  background-color: #003d82;
+  border-color: #003d82;
+}
+
+/* Navigation styles */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+}
+
+/* Text styles */
+.lead {
+  color: #6c757d;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 1.25rem;
+  }
+}
+
+/* List styles */
+ol li {
+  margin-bottom: 0.75rem;
+  color: #495057;
+  line-height: 1.6;
+}
+
+/* Row and column spacing */
+.row {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .row {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Main content area */
+main {
+  padding-top: 1rem;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-top: 2rem;
+  }
+}
